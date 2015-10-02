@@ -1,4 +1,13 @@
-size(170, 244);
+void setup(){
+  
+  size(170, 244);
+  
+}
+
+void draw(){
+ background(255); 
+ 
+
 
 
 noStroke();
@@ -58,23 +67,35 @@ ellipse(115, 85, 10, 10);
 
 //Cloud
 fill(255, 255, 255);     
-ellipse(65, 45, 57, 35); 
+ellipse(65, 45, 50, 25); 
 
 
 //inside body shader
 fill(144, 134, 134);  
 
-//Fedora
-fill(0,0,0);
-ellipse(107,70,40,10);
-ellipse(107,68,30,10);
-ellipse(107,66,30,10);
-ellipse(107,63,30,10);
-ellipse(107,60,30,10);
-ellipse(107,57,30,10);
-ellipse(107,54,30,10);
-ellipse(107,51,30,10);
-ellipse(107,50,30,10);
+//Top Hat
+fill(0, 0, 0);
+ellipse(107, 70, 40, 10);
+ellipse(107, 69, 30, 10);
+ellipse(107, 68, 30, 10);
+ellipse(107, 67, 30, 10);
+ellipse(107, 66, 30, 10);
+ellipse(107, 65, 30, 10);
+ellipse(107, 64, 30, 10);
+ellipse(107, 63, 30, 10);
+ellipse(107, 62, 30, 10);
+ellipse(107, 61, 30, 10);
+ellipse(107, 60, 30, 10);
+ellipse(107, 59, 30, 10);
+ellipse(107, 58, 30, 10);
+ellipse(107, 57, 30, 10);
+ellipse(107, 56, 30, 10);
+ellipse(107, 55, 30, 10);
+ellipse(107, 54, 30, 10);
+ellipse(107, 53, 30, 10);
+ellipse(107, 52, 30, 10);
+ellipse(107, 51, 30, 10);
+ellipse(107, 50, 30, 10);
 
 //wing
 fill(0, 0, 0);     
@@ -119,14 +140,13 @@ ellipse(135, 210, 10, 10);
 fill(255, 255, 255);
 ellipse(133, 207, 3, 3);
 
-line(145,215,145,218);
-line(150,215,150,218);
-line(155,215,155,218);
+line(145, 215, 145, 218);
+line(150, 215, 150, 218);
+line(155, 215, 155, 218);
 
 //lilipad
 noStroke();
-fill(42,100,26);
-ellipse(140,170,30,15);
+fill(42, 100, 26);
+ellipse(140, 170, 30, 15);
 
-stroke(70);
-line(133,170,150,170);
+}
