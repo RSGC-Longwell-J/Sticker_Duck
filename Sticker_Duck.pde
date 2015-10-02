@@ -94,6 +94,11 @@ void draw() {
   ellipse(107, 51, 30, 10);
   ellipse(107, 50, 30, 10);
 
+  //Pimp Cain
+  fill(80, 2, 14);
+  ellipse(70, 120, 20, 10);
+  rect(65, 122, 8, 20);
+
   //wing
   fill(0, 0, 0);     
   ellipse(55, 112, 50, 25);
@@ -148,10 +153,11 @@ void draw() {
 
   //crosshairs
   stroke(0);
-  fill(255,255,255);
+  fill(255, 255, 255);
   ellipse(mouseX, mouseY, 5, 5);
   line(mouseX, mouseY - 20, mouseX, mouseY + 20);
   line(mouseX - 20, mouseY, mouseX + 20, mouseY);
+
   //report position of mouse on screen
   fill(0);
   text("X "+mouseX, mouseX+10, mouseY+10);
