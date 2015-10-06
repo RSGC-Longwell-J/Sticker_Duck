@@ -97,19 +97,24 @@ void draw() {
   //Pimp Cain
   fill(80, 2, 14);
   ellipse(70, 120, 20, 10);
-  rect(65, 122, 8, 20);
-
+ 
+  beginShape();
+  vertex(67,122);
+  vertex(73,162);
+  vertex(75,122);
+  endShape(CLOSE);
+  
   //wing
   fill(0, 0, 0);     
   ellipse(55, 112, 50, 25);
-
   stroke(0);
 
   //LE QAK
 
-  line(10, 10, 10, 20);    
+  line(10, 10, 10, 20);
+  line(11, 10, 11, 20);
   line(10, 20, 15, 20);
-
+  line(11, 19, 15, 19);
   line(20, 10, 20, 20);    
   line(20, 20, 25, 20);    
   line(20, 10, 25, 10);    
@@ -151,6 +156,13 @@ void draw() {
   fill(42, 100, 26);
   ellipse(140, 170, 30, 15);
 
+  //monacle
+  stroke(0);
+  noFill();
+  ellipse(115, 85, 15, 15);
+  stroke(255);
+
+
   //crosshairs
   stroke(0);
   fill(255, 255, 255);
@@ -163,6 +175,7 @@ void draw() {
   text("X "+mouseX, mouseX+10, mouseY+10);
   text("Y "+mouseY, mouseX+10, mouseY+20);
 
+  println("Y:"+mouseY);  
   println("X:"+mouseX);
-  println("y:"+mouseY);
+
 }
