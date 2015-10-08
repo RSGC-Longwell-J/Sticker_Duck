@@ -163,19 +163,5 @@ void draw() {
   stroke(255);
 
 
-  //crosshairs
-  stroke(0);
-  fill(255, 255, 255);
-  ellipse(mouseX, mouseY, 5, 5);
-  line(mouseX, mouseY - 20, mouseX, mouseY + 20);
-  line(mouseX - 20, mouseY, mouseX + 20, mouseY);
-
-  //report position of mouse on screen
-  fill(0);
-  text("X "+mouseX, mouseX+10, mouseY+10);
-  text("Y "+mouseY, mouseX+10, mouseY+20);
-
-  println("Y:"+mouseY);  
-  println("X:"+mouseX);
 
 }
